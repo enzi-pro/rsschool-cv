@@ -50,3 +50,8 @@ int main()
     return 0;
 }
 ```
+
+## Experience
+* 6 month of practicing the MVC Framework
+* 2 school projects in PHP ([Mathematics Club Website](http://t77759pa.beget.tech/kz/) / [Football Website](http://o77870mk.beget.tech))
+* Studied Computer Science in school
