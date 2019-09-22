@@ -1,4 +1,4 @@
-# RS School CV of Nurmukhamed Zhanibek
+# Nurmukhamed Zhanibek
 
 ## Contact Information
 Email address: zhanibek.n.karaganda@gmail.com
@@ -50,5 +50,3 @@ int main()
     return 0;
 }
 ```
-
-## Experience
