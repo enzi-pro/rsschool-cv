@@ -20,3 +20,31 @@ PHP | One Year of Practice
 C# in .NET | 120 hours of Courses
 3D Modeling | Took a Class in College
 Responsive Design | Saw a Guide on Youtube
+
+## Code Examples
+This code snippet is from my latest assignment in **Programming for Engineers**
+```C
+float my_det(float x1, float x2, float y1, float y2)
+{
+    return (x1*y2-x2*y1);
+}
+
+int main()
+{
+    float a1, b1, k1, a2, b2, k2, x, y;
+    printf("Enter a1, b1, k1, a2, b2, k2: ");
+    scanf("%f %f %f %f %f %f", &a1, &b1, &k1, &a2, &b2, &k2);
+
+    if ((my_det(a1, a2, b1, b2) < 0.001) && (my_det(a1, a2, b1, b2) > -0.001))
+    {
+        printf("A unique solution does not exist.");
+        return 0;
+    }
+    x = my_det(k1, k2, b1, b2) / my_det(a1, a2, b1, b2);
+    y = my_det(a1, a2, k1, k2) / my_det(a1, a2, b1, b2);
+
+    printf("The solution is:\nx = %f", x);
+    printf("\ny = %f", y);
+    return 0;
+}
+```
