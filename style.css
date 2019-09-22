@@ -5,4 +5,65 @@
   border: 0; 
   text-decoration: none; 
   color: #000000; 
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+header {
+  width: 100%; 
+  height: 90px; 
+  padding: 20px 0 30px 0;
+  text-align: center; 
+}
+
+section:not(.code-examples) {
+  margin: 0 0 30px 5px; 
+}
+
+section.english {
+  margin-bottom: 60px;
+}
+
+h2 {
+  margin: 0 0 10px 20px; 
+}
+
+ul {
+  margin-left: 20px;
+  list-style-type: square;
+}
+
+ol {
+  margin-left: 20px;
+  list-style-type: decimal;
+}
+
+a {
+  color: rgb(56, 56, 243); 
+}
+
+a:hover {
+  color: rgb(12, 12, 145); 
+}
+
+a:active {
+  color: rgb(56, 56, 243); 
+}
+
+table {
+  margin-left: 10px; 
+  border-collapse: collapse; 
+}
+
+th,
+td {
+  padding: 5px; 
+  border: 1px #000000 solid; 
+  text-align: left; 
+}
+
+code {
+  display: block; 
+  width: 570px; 
+  padding: 20px; 
+  background-color: #d1d0d0; 
 }
