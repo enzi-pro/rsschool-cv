@@ -55,3 +55,13 @@ int main()
 * 6 month of practicing the MVC Framework
 * 2 school projects in PHP ([Mathematics Club Website](http://t77759pa.beget.tech/kz/) / [Football Website](http://o77870mk.beget.tech))
 * Studied Computer Science in school
+
+## Education
+Graduated from the Nazarbayev Intellectual School of Chemistry and Biology in 2019
+
+Started studies in the Nazarbayev University majoring in Electronic and Computer Engineering
+
+## English
+* Studied English for 7 years in school
+* Was an exchange student in the United States for a year
+* Passed IELTS with 7.5 (8.5, 8.5, 6.0, 7.0)
