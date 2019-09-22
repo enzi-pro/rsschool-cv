@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+<body>
+  <header>
+    <h1>CV of Nurmukhamed Zhanibek</h1>
+  </header>
+  <main>
+    <section class="contact-information">
+      <h2>Contact Information</h2>
+      <p>
+        Email address: zhanibek.n.karaganda@gmail.com<br>
+        or alternatively <a href="https://www.instagram.com/enzi.vue/">@enzi.vue</a> on Instagram / 
+        <a href="https://vk.com/enzipage">@enzipage</a> on VK
+      </p>
+    </section>
+    <img src="photo.jpg" alt="Nurmukhamed Zhanibek">
+    <section class="summary">
+      <h2>Summary</h2> 
+      <p>
+        There are a couple of rules that I stick by
+      </p>
+        <ol>
+          <li>Committing to something I started</li>
+          <li>Making the most out of my day</li>
+          <li>Permanently learning</li>
+        </ol>
+      <p>
+        My goals in life are aligned with these rules as I strive to help those in need, while advancing myself.
+      </p>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2> 
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level of Proficiency</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>HTML & CSS</td>
+          <td>Upper-Intermediate</td>
+        </tr>
+        <tr>
+          <td>PHP</td>
+          <td>One Year of Practice</td>
+        </tr>
+        <tr>
+          <td>C# in .NET</td>
+          <td>120 hours of Courses</td>
+        </tr>
+        <tr>
+          <td>3D Modeling</td>
+          <td>Took a Class in College</td>
+        </tr>
+        <tr>
+          <td>Responsive Design</td>
+          <td>Saw a Guide on Youtube</td>
+        </tr>
+      </table>
+    </section>
+    <section class="code-examples">
+      <h2>Code Examples</h2>
+      <p>This code snippet is from my latest assignment in Programming for Engineers</p>
+      <pre>
+        <code>
+  float my_det(float x1, float x2, float y1, float y2)
+  {
+    return (x1*y2-x2*y1);
+  }
+
+  int main()
+  {
+    float a1, b1, k1, a2, b2, k2, x, y;
+    printf("Enter a1, b1, k1, a2, b2, k2: ");
+    scanf("%f %f %f %f %f %f", &a1, &b1, &k1, &a2, &b2, &k2);
+
+    if ((my_det(a1, a2, b1, b2) &lt; 0.001) && (my_det(a1, a2, b1, b2) > -0.001))
+    {
+      printf("A unique solution does not exist.");
+      return 0;
+    }
+    x = my_det(k1, k2, b1, b2) / my_det(a1, a2, b1, b2);
+    y = my_det(a1, a2, k1, k2) / my_det(a1, a2, b1, b2);
+
+    printf("The solution is:\nx = %f", x);
+    printf("\ny = %f", y);
+    return 0;
+  }
+        </code>
+      </pre>
+    </section>
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>6 month of practicing the MVC Framework</li>
+        <li>2 school projects in PHP 
+          <a href="http://t77759pa.beget.tech/kz/">Mathematics Club Website</a> / 
+          <a href="http://o77870mk.beget.tech">Football Website</a>
+        </li>
+        <li>Studied Computer Science in school</li>
+      </ul>
+    </section>
+    <section class="education">
+      <h2>Education</h2> 
+      <p>
+        Graduated from the Nazarbayev Intellectual School of Chemistry and Biology in 2019<br>
+        Started studies in the Nazarbayev University majoring in Electronic and Computer Engineering
+      </p>
+    </section>
+    <section class="english">
+      <h2>English</h2>
+      <ul>
+        <li>Studied English for 7 years in school</li>
+        <li>Was an exchange student in the United States for a year</li>
+        <li>Passed IELTS with 7.5 (8.5, 8.5, 6.0, 7.0)</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
