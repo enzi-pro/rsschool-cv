@@ -15,6 +15,12 @@ header {
   text-align: center; 
 }
 
+img {
+  width: 200px; 
+  height: 200px; 
+  margin: 0 0 10px 10px; 
+}
+
 section:not(.code-examples) {
   margin: 0 0 30px 5px; 
 }
