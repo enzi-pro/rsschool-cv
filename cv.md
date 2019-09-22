@@ -12,6 +12,7 @@ There are a couple of rules that I stick by
 My goals in life are aligned with these rules as I strive to help those in need, while advancing myself.
 
 ## Skills
+
 Skill | Level of Proficiency
 :---: | :---
 HTML & CSS | Upper-Intermediate
