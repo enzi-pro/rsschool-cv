@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Nurmukhamed Zhanibek</h1>
+        <h1>CV of Nurmukhamed Zhanibek</h1>
     </header>
 
-    <section>
+    <section class="contact-information">
         <h2>Contact Information</h2>
         <p>
             Email address: zhanibek.n.karaganda@gmail.com<br />
@@ -21,7 +21,7 @@
         </p>
     </section>
 
-    <section>
+    <section class="summary">
         <h2>Summary</h2> 
         <p>
             There are a couple of rules that I stick by
@@ -34,7 +34,7 @@
         </p>
     </section>
 
-    <section>
+    <section class="skills">
         <h2>Skills</h2> 
         <table>
             <thead>
@@ -66,38 +66,39 @@
         </table>
     </section>
 
-    <section>
+    <section class="code-examples">
         <h2>Code Examples</h2>
         <p>This code snippet is from my latest assignment in Programming for Engineers</p>
         <code>
-            float my_det(float x1, float x2, float y1, float y2)
-            {
-                return (x1*y2-x2*y1);
-            }
+            <pre>
+float my_det(float x1, float x2, float y1, float y2)
+{
+    return (x1*y2-x2*y1);
+}
 
-            int main()
-            {
-                float a1, b1, k1, a2, b2, k2, x, y;
-                printf("Enter a1, b1, k1, a2, b2, k2: ");
-                scanf("%f %f %f %f %f %f", &a1, &b1, &k1, &a2, &b2, &k2);
+int main()
+{
+    float a1, b1, k1, a2, b2, k2, x, y;
+    printf("Enter a1, b1, k1, a2, b2, k2: ");
+    scanf("%f %f %f %f %f %f", &a1, &b1, &k1, &a2, &b2, &k2);
 
-                if ((my_det(a1, a2, b1, b2) < 0.001) && (my_det(a1, a2, b1, b2) > -0.001))
-                {
-                    printf("A unique solution does not exist.");
-                    return 0;
-                }
-                x = my_det(k1, k2, b1, b2) / my_det(a1, a2, b1, b2);
-                y = my_det(a1, a2, k1, k2) / my_det(a1, a2, b1, b2);
+    if ((my_det(a1, a2, b1, b2) < 0.001) && (my_det(a1, a2, b1, b2) > -0.001))
+    {
+        printf("A unique solution does not exist.");
+        return 0;
+    }
+    x = my_det(k1, k2, b1, b2) / my_det(a1, a2, b1, b2);
+    y = my_det(a1, a2, k1, k2) / my_det(a1, a2, b1, b2);
 
-                printf("The solution is:\nx = %f", x);
-                printf("\ny = %f", y);
-                return 0;
-            }
+    printf("The solution is:\nx = %f", x);
+    printf("\ny = %f", y);
+    return 0;
+}
+            </pre>
         </code>
-        
     </section>
 
-    <section>
+    <section class="experience">
         <h2>Experience</h2>
         <ul>
             <li>6 month of practicing the MVC Framework</li>
@@ -108,14 +109,14 @@
             <li>Studied Computer Science in school</li>
         </ul>
     </section>
-    <section>
+    <section class="education">
         <h2>Education</h2> 
         <p>
             Graduated from the Nazarbayev Intellectual School of Chemistry and Biology in 2019<br />
             Started studies in the Nazarbayev University majoring in Electronic and Computer Engineering
         </p>
     </section>
-    <section>
+    <section class="english">
         <h2>English</h2>
         <ul>
             <li>Studied English for 7 years in school</li>
