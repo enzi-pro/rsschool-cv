@@ -12,10 +12,10 @@ There are a couple of rules that I stick by
 My goals in life are aligned with these rules as I strive to help those in need, while advancing myself.
 
 ## Skills
-Skill | Level of Proficiency
------ | --------------------
-HTML & CSS | Upper-Intermediate
-PHP | One Year of Practice
-C# in .NET | 120 hours of Courses
-3D Modeling | Took a Class in College
-Responsive Design | Saw a Guide on Youtube
+|Skill             | Level of Proficiency   |
+|------------------|------------------------|
+|HTML & CSS        | Upper-Intermediate     |
+|PHP               | One Year of Practice   |
+|C# in .NET        | 120 hours of Courses   | 
+|3D Modeling       | Took a Class in College|
+|Responsive Design | Saw a Guide on Youtube |
