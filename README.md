@@ -1,1 +1,1 @@
-# [rsschool-cv](https://enzi-pro.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://enzi-compte.github.io/rsschool-cv/cv)
